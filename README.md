@@ -42,3 +42,5 @@ Data is loaded into _airbyte_raw_airquality with JSON weather payload.
 Ensured all connections use HTTPS.
 Validated API key and query using curl.
 Used Airbyte logs to resolve “no records”/protocol errors.
+![image](https://github.com/user-attachments/assets/f1303441-01de-4af0-be4d-812351c33ac8)
+
