@@ -30,11 +30,15 @@ Schema: AIRBYTE_SCHEMA
 Warehouse: AIRBYTE_WAREHOUSE
 User: AIRBYTE_USER
 Role: AIRBYTE_ROLE
+![image](https://github.com/user-attachments/assets/04818582-a902-44d9-963e-ce1a5f732f8f)
 
-5. Sample Data Loaded
+
+6. Sample Data Loaded
 Data is loaded into _airbyte_raw_airquality with JSON weather payload.
 
-6. Validation & Troubleshooting
+![image](https://github.com/user-attachments/assets/de9708d9-d25a-4e1d-83b3-1bf4f20ed644)
+
+7. Validation & Troubleshooting
 Ensured all connections use HTTPS.
 Validated API key and query using curl.
 Used Airbyte logs to resolve “no records”/protocol errors.
