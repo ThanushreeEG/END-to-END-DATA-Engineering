@@ -11,15 +11,16 @@ API: WeatherAPI https://www.weatherapi.com/
 Endpoint: https://api.weatherapi.com/v1/current.json
 API Key: [REDACTED]
 Parameter Example: q=India
+![image](https://github.com/user-attachments/assets/0f860613-69fb-4214-ae60-cc18a956c73e)
 
-2. Airbyte Setup
+
+3. Airbyte Setup
 Platform: Airbyte Cloud
 Source Connector: HTTP API (GET)
 Destination Connector: Snowflake
 Sync Frequency: [your cron schedule, e.g., every hour]
 Transformation: [none, raw data only]
 
-![image](https://github.com/user-attachments/assets/7f8572c6-e578-4749-906f-300cd03104a6)
 ![image](https://github.com/user-attachments/assets/7f8572c6-e578-4749-906f-300cd03104a6)
 
 4. Snowflake Configuration
